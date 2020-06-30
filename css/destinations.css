@@ -1,3 +1,167 @@
 body{
-    background-color:blanchedalmond;
+    margin: 5px 5px 5px 5px;
 }
+
+.bann{
+   background-size: contain;
+   width: 100%;
+   height: auto;
+   margin-top: 10px;
+}
+
+#h1-og{
+    background: none;
+    color: white;
+    opacity: 1;
+    padding: 5px 5px 0px 5px;
+    margin:5px 5px 0px 5px;
+    text-align: center;
+}
+
+#p-og{
+    background: none;
+    color: white;
+    opacity: 1;
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin: 5px 0px 5px 0px;
+}
+
+.slideintro{
+    margin-bottom: 15px;
+}
+
+.slideoutro{
+    text-align: center;
+}
+
+img{
+    height: 500px;
+}
+
+h1{
+    text-align: center;
+    background: lightgrey;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+#slider,#mara,
+#hellsgate,#mount,
+#falls{
+    margin: auto;
+    overflow: hidden;
+}
+
+#slider>figure,
+#mara>figure,
+#hellsgate>figure,
+#mount>figure{
+    position: relative;
+    width: 600%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#falls>figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 24s slider infinite;
+}
+
+#slider>figure>img,
+#mara>figure>img,
+#hellsgate>figure>img,
+#mount>figure>img{
+    float: left;
+    width: 16.666%;
+}
+
+#falls>figure>img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider {
+
+    0% { left: 0; }
+    15%{ left: 0; }
+    20%{ left: -100%; }
+    35%{ left: -100%; }
+    40%{ left: -200%; }
+    55%{ left: -200%; }
+    60%{ left: -300%; }
+    75%{ left: -300%; }
+    80%{ left: -400%; }
+    95%{ left: -400%; }
+    100%{ left: -500%;}
+}
+
+@keyframes mara {
+
+    0% { left: 0; }
+    15%{ left: 0; }
+    20%{ left: -100%; }
+    35%{ left: -100%; }
+    40%{ left: -200%; }
+    55%{ left: -200%; }
+    60%{ left: -300%; }
+    75%{ left: -300%; }
+    80%{ left: -400%; }
+    95%{ left: -400%; }
+    100%{ left: -500%;}
+}
+
+@keyframes hellsgate {
+
+    0% { left: 0; }
+    15%{ left: 0; }
+    20%{ left: -100%; }
+    35%{ left: -100%; }
+    40%{ left: -200%; }
+    55%{ left: -200%; }
+    60%{ left: -300%; }
+    75%{ left: -300%; }
+    80%{ left: -400%; }
+    95%{ left: -400%; }
+    100%{ left: -500%;}
+}
+
+@keyframes mount {
+
+    0% { left: 0; }
+    15%{ left: 0; }
+    20%{ left: -100%; }
+    35%{ left: -100%; }
+    40%{ left: -200%; }
+    55%{ left: -200%; }
+    60%{ left: -300%; }
+    75%{ left: -300%; }
+    80%{ left: -400%; }
+    95%{ left: -400%; }
+    100%{ left: -500%;}
+}
+
+@keyframes falls {
+
+    0% { left: 0; }
+    20%{ left: 0; }
+    25%{ left: -100%; }
+    45%{ left: -100%; }
+    50%{ left: -200%; }
+    70%{ left: -200%; }
+    75%{ left: -300%; }
+    95%{ left: -300%; }
+    100%{ left: -400%; }
+}
+
+
+/*last changes me hopes too*/
