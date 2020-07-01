@@ -4,10 +4,9 @@
     box-sizing: border-box; 
 }
 
-body{
-    background: #f4f5f7;
-    width: 100%;
-   
+#about-page{
+  position: relative;
+  overflow-y: auto;
 }
 
 /*styling the image on landing page*/
@@ -206,17 +205,6 @@ body {
   padding: 0 16px; 
 } 
 
-/* Icon styling */ 
-.fa { 
-  margin: 10px; 
-  font-size:68px; 
-} 
-
-.fa:hover { 
-  transform: rotateY(180deg); 
-  transition: transform 0.8s; 
-} 
-
 .container::after, 
 .row::after { 
   content: ""; 
@@ -240,12 +228,3 @@ body {
 .button:hover { 
   background-color: green; 
 } 
-
-
-
-  
-  #footer{
-    background-color: rgb(127, 187, 70);
-    width: 100%;
-    text-align: center;
-  }

@@ -3,6 +3,13 @@
 	margin:0;
 	text-decoration: none;
 }
+
+body{
+	margin: 2px 5px 2px 5px;
+    background-color:wheat;
+    opacity: 1;
+}
+
 .top-image{
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -94,16 +101,17 @@ margin-right: -3%;
 
 }
 
-
 .bottom-right ul li{
 	display: inline-block;
 	min-width: 100px;
+	text-align: center;
 }
 
 .bottom-right ul li a{
 	color: white;
 	opacity: 1;
 	font-size: 18px;
+	text-align: center;
 }
 
 .bottom-right ul li a:hover{
