@@ -1,21 +1,27 @@
+/*
 body{
     margin: 5px 5px 5px 5px;
+    background-color: blanchedalmond;
 }
+*/
 
 .bann{
    background-size: contain;
    width: 100%;
-   height: auto;
+   height: 55px;
    margin-top: 10px;
 }
 
-#h1-og{
+.h2{
     background: none;
     color: white;
     opacity: 1;
-    padding: 5px 5px 0px 5px;
-    margin:5px 5px 0px 5px;
+    padding: 0px;
+    margin:0px;
     text-align: center;
+    margin-top: 8px;
+    font-size: 24px;
+    padding-top: 10px;
 }
 
 #p-og{
@@ -47,7 +53,7 @@ img{
 h1{
     text-align: center;
     background: lightgrey;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
     padding: 5px;
 }
 
