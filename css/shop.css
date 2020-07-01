@@ -3,6 +3,12 @@
     padding:0;
     color:white;
 }
+.header{
+    z-index: 20;
+}
+.bottom-right{
+    margin-top:6rem;
+}
 .img-banner{
     width:100%;
     height:48vh;
@@ -47,6 +53,11 @@
     margin-bottom: 3rem;
     border-radius: 0.6rem;
     overflow: hidden;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+.card:hover{
+    transform: scale(1.03);
 }
 .card-content h3{
     color:rgb(3, 66, 11);
