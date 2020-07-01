@@ -9,20 +9,9 @@
     background-size: 100% 100%;
 }
 
-
-.h2{
+#p-og,.h2{
     background: none;
-    color: white;
-    opacity: 1;
-    align-self:center;
-    margin: auto;
-    font-size: 24px;
-    padding-top: 10px;
-}
-
-#p-og{
-    background: none;
-    color: white;
+    color: black;
     opacity: 1;
     padding: 0px;
     margin:0px;
