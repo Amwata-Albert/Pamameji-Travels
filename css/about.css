@@ -1,12 +1,11 @@
 *{
-    margin: 0px;
     padding: 0px;
     box-sizing: border-box; 
 }
 
 #about-page{
   position: relative;
-  overflow-y: auto;
+  overflow:hidden;
 }
 
 /*styling the image on landing page*/
