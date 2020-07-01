@@ -9,9 +9,7 @@ box-sizing: border-box;
 div {
     display: block;
 }
-body{
-    background-color: rgb(126, 211, 14);
-}
+
 .map{
     text-decoration: none;
 }
@@ -28,5 +26,10 @@ body{
 }
 .section{
     text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
    
+button{
+    height: 35px;
+}

@@ -3,6 +3,13 @@
 	margin:0;
 	text-decoration: none;
 }
+
+body{
+	margin: 2px 5px 2px 5px;
+    background-color:wheat;
+    opacity: 1;
+}
+
 .top-image{
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -11,15 +18,25 @@
 }
 
 header{
-	height: 23%;
+	height: auto;
 	width: 100%;
-	background :rgb(128,128,128,.7);
 	min-height: 25%;
+	position: relative;
+	top: 0;
+	left:0;
+	overflow: hidden;
 									;
 }
 
+#heads{
+    background-size: 100% 100%;
+}
+
+
 .top-left i, .top-right i{
 	color: yellow;
+	padding: 5px;
+	font-size: 18px;
 }
 .top{
 	width: 80%;
@@ -69,8 +86,14 @@ margin-right: -3%;
 .bottom-left h3{
 	margin-top: 5%;
 	margin-left:10px;
-	font-size: 30px;
-	width: 580px;	
+	font-size: 18px;
+	width: 580px;
+	color: white;	
+}
+
+.bottom-left p{
+	font-size: 18px;
+	color: white;
 }
 
 .bottom-right ul{
@@ -78,14 +101,17 @@ margin-right: -3%;
 
 }
 
-
 .bottom-right ul li{
 	display: inline-block;
 	min-width: 100px;
+	text-align: center;
 }
 
 .bottom-right ul li a{
 	color: white;
+	opacity: 1;
+	font-size: 18px;
+	text-align: center;
 }
 
 .bottom-right ul li a:hover{
@@ -382,7 +408,6 @@ footer{
 		font-style:underline;
 		color: blue;
 	}
-
 
 	#checked:checked ~ ul{
 		margin: 0;	
