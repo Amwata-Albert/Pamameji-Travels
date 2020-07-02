@@ -1,0 +1,619 @@
+*{
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+}
+.top-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	background:url('images/safaris2.jpg');
+	animation: 20s myanimate infinite;
+}
+@keyframes myanimate{
+
+	0%{
+		left:0%;
+		background-image: url('images/lion-icon.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	30%{
+		left:0%;
+		background-image: url('images/mara-5-Picnic-by-the-riverside.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	50%{
+		left:0%;
+		background-image: url('images/african_cats-1920x1080.jpg');
+	}
+	70%{
+		left:0%;
+		background-image: url('images/HellsGate_Kenya-3.jpg');
+	}
+	
+
+	100%{
+		left:0%;
+		background-image: url('images/travel1.jpg');
+	}
+}
+
+
+header{
+	height: 23%;
+	width: 100%;
+	background :rgb(128,128,128,.7);
+	min-height: 25%;
+									;
+}
+
+.top-left i, .top-right i{
+	color: yellow;
+}
+.top{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;	
+}
+
+.top-left{
+	float: left;
+	margin-top: 10px;
+}
+
+.top-right{
+	float: right;
+	margin-top: 10px;
+}
+
+.top-right i, .top-left i{
+	min-width: 100px;
+}
+
+.bottom{
+	width: 80%;
+
+	margin-right: 10%;
+	margin-left: 10%;	
+}
+.bottom-right{
+margin-top: 12%;
+float: right;
+margin-right: -3%;
+}
+.bottom-left{
+	float: left;
+	margin-top: 1.5%;
+	margin-right: 80%;
+}
+
+.bottom-left img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	float: left;
+	line-height: 200px;
+
+}
+.bottom-left h3{
+	margin-top: 5%;
+	margin-left:10px;
+	font-size: 30px;
+	width: 580px;	
+}
+
+.bottom-right ul{
+	margin-top: -35%;
+
+}
+
+
+.bottom-right ul li{
+	display: inline-block;
+	min-width: 100px;
+}
+
+.bottom-right ul li a{
+	color: white;
+}
+
+.bottom-right ul li a:hover{
+	background:darkgrey;
+	padding: 10px;
+	border-radius:5px;
+	width: 150px;
+}
+
+.checking{
+	float:right;
+	cursor:pointer;
+	font-size: 30px;
+	color: white;
+	margin-right: 1%;
+	margin-top: 1%;
+	display: none;
+
+}
+
+#checked{
+	margin-right: 1%;
+	margin-top: 1%;
+	display: none; 
+
+
+}
+
+section.thissection{
+	margin-top: %;
+	min-height: 70%;
+}
+.section2{
+	margin-top: 50px;
+	min-height: 70%;
+}
+
+
+footer{
+	min-height: 30%;
+	bottom: 0;
+	text-align: center;
+}
+
+.footer1{
+	width: 100%;
+	background: grey;
+	min-height: 200px;											
+
+
+}
+.footer2{
+	margin-left: 20%;
+	width: 20%;
+	float: left;
+	line-height: 20px;
+
+}
+.footer2 img{
+	width: 100px;
+	min-height: 100px;
+	border-radius: 50px;
+	margin-top:20px;
+	margin-left: -80%;}
+.footer2 p.ff1{
+	margin-top: 5%;
+	margin-left: ;
+	font-style: italic;
+	margin-right: 2%;
+	line-height: 20px;
+
+}
+
+.footer3{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	font-style: italic;
+	margin-left: 2%;
+	font-size: 15px;
+	line-height: 25px;
+	margin-right: 2%;}
+
+
+.footer4{
+	margin-right:;
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	font-style: italic;
+	line-height: 25px;
+
+}
+.footer4 i{
+	font-size: 30px;
+	margin-right: 5px;
+}
+.footer5{
+	width:100%;
+	background: rgb(85,107,47);
+	text-align: center;
+	height: 100px;
+	align-items: center;
+	align-content: center;
+	line-height:100px;
+	font-size: 25px;
+}
+
+@media(max-width: 1250px){
+
+	.bottom-left h3{
+		font-size: 15px;
+
+	}
+	.bottom-right, .top-right, .top-left{
+		font-size: 12px;
+
+	}
+	.bottom-left{
+		font-size: 18px;
+		width: 40%;
+		
+
+	}
+	.top-right{
+		float: right;
+	}
+	.bottom-right{
+		margin-top:9%;
+		float: right;
+		margin-right: -40;
+	}
+
+}
+
+@media(max-width: 900px){
+	header{ height: 450px; }
+		.checking{
+		display: block;
+		color: white;
+		font-size: 30px;
+		float: right;
+	}
+
+
+	.top-left{
+		display:none;
+		margin-left: 50px;
+	}
+	.top-right{
+		width: 95%;
+		float: left;
+		margin-top: 10px;
+	}
+	.top-right ul {
+
+		width: 70px;
+		margin-top: 10px;
+	}
+	.bottom-right, .top-right {
+		font-size: 12px;
+
+	}
+	.bottom-left{
+		font-size: 18px;
+		width: 100%;
+		margin-top: 5%;
+		float: left;
+	}
+
+	.botton-left ul{
+		display: inline-block;margin-top: 40px;
+	}
+	.bottom-right{
+	width: 100%;
+	float:left;
+
+	}
+	.bottom-right ul{	
+		width: 100%;
+		text-align:center;
+		line-height: 40px;
+		max-height: 15%;
+		margin-left:;
+		margin-top: 1%;
+		transition: all 1s;
+
+	}
+	#checked:checked ~ .ul{
+		margin-left: 100%;
+	}
+
+	.bottom-right ul li{
+		display:block;
+		width: 100%;
+	}
+		.bottom-right ul li a:hover{
+		background: none;
+		font-style:underline;
+		color: blue;
+	}
+	.footer1{
+		min-height: 550px;
+		width: 100%;
+	}
+	
+	.footer2{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 2%;
+	} 
+
+	.footer3{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 5%;
+	} 
+
+	.footer4{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 5%;
+	}
+
+	.footer2 img{
+		margin-top: ;
+		margin-left: -60%;
+	}
+
+}
+
+
+@media(max-width: 720px){
+	header{
+		height: 450px;	
+	}
+	.checking{
+	display: block;
+	color: white;
+	font-size: 25px;
+	float: right;
+	}
+
+	.top-right{
+		display: none;
+	}
+	.top-left{
+		display: inline-block;
+		float:left;
+		width: 90%;
+	}
+
+	.bottom-left{
+		margin-top: 5%;
+		width: 100%;
+		float: left;
+		font-size: 19px;
+	}
+	.bottom-left h3{
+		font-size: 16px;
+		margin-top: 40px;
+
+	}
+
+	.bottom-right{
+		width: 100%;
+		float:left;
+		margin: 0;
+
+	}
+	.bottom-right ul{
+		display: block;
+		width: 100%;
+		text-align:center;
+		line-height: 40px;
+		height: 20%;
+		transition: all;
+		margin-top: 10%;
+
+	}
+
+	.bottom-right ul li{
+		display:block;
+		width: 100%;
+	}
+		.bottom-right ul li a:hover{
+		background: none;
+		font-style:underline;
+		color: blue;
+	}
+
+
+	#checked:checked ~ ul{
+		margin: 0;	
+	}
+
+		.footer1{
+		min-height: 550px;
+	}
+	
+	.footer2{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 2%;
+
+	} 
+
+	.footer3{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 5%;
+	} 
+
+	.footer4{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 5%;
+	}
+
+	.footer2 img{
+		margin-left: -60%;
+	}
+	
+}
+
+
+
+@media(max-width: 310px){
+	header{
+		height: 450px;	
+	}
+	.checking{
+	display: block;
+	color: white;
+	font-size: 25px;
+	float: right;
+	}
+	.bottom-left h3{
+		font-size: 10px;
+	}
+	.top-right{
+		display: none;
+	}
+	.top-left{
+		display: inline-block;
+		float: left;
+		width: 90%;
+	}
+
+	.bottom-left{
+		margin-top: 5%;
+		width: 100%;
+		float: left;
+		font-size: 19px;
+	}
+	.bottom-left h3{
+		font-size: 16px;
+		margin-top: 40px;
+
+	}
+
+	.bottom-right{
+		width: 100%;
+		float:left;
+		margin: 0;
+
+	}
+	.bottom-right ul{
+		display: block;
+		width: 100%;
+		text-align:center;
+		line-height: 40px;
+		height: 20%;
+		transition: all;
+		margin-top: 10%;
+
+	}
+
+	.bottom-right ul li{
+		display:block;
+		width: 100%;
+	}
+		.bottom-right ul li a:hover{
+		background: none;
+		font-style:underline;
+		color: blue;
+	}
+
+
+	#checked:checked ~ ul{
+		margin: 0;	
+	}
+		.footer1{
+		min-height: 550px;
+	}
+	
+	.footer2{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 2%;
+	} 
+
+	.footer3{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 5%;
+	} 
+
+	.footer4{
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin-top: 5%;
+	}
+
+	.footer2 img{
+		margin-left: -60%;
+	}
+	.footer5{
+		font-size:15px;
+	}
+
+}
+/*contact css*/
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+*{
+box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body{
+    background-color: rgb(126, 211 14);
+}
+.map{
+    text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+    font-size: xx-large;
+}
+.title{
+    font-size: 35px ;
+    font-weight: 900;
+    letter-spacing: 2px ;
+    text-align: center;
+}
+.section{
+	text-align: center;
+	
+}
+ .section2{
+	 text-align: center;
+	 background-image:url('images/akothee.jpg');
+	 background-size: cover;
+
+	
+ }
+ .section2 img{
+	 width: 553px;
+	 height: 500px;
+	 padding: 30px;
+	 margin-left:-10%;
+	 border-radius: 50%;
+ }
+ .kenya{
+	 margin-right:70%;
+	 color:white;
+	 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+	 Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	 font-weight: bolder;
+	 font-size: larger;
+ }
+.video{
+	float:center;
+	margin-top: -20%;
+	margin-left: 70%;
+	border: 5px solid black;
+	height:20%;
+}
+
+
+
+

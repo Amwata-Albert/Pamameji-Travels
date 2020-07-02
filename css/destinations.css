@@ -1,12 +1,11 @@
-body{
-    margin: 5px 5px 5px 5px;
-}
 
 .bann{
-   background-size: contain;
+   background-size: cover;
    width: 100%;
-   height: auto;
+   height: 350px;
    margin-top: 10px;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 #h1-og{
@@ -16,6 +15,8 @@ body{
     padding: 5px 5px 0px 5px;
     margin:5px 5px 0px 5px;
     text-align: center;
+    
+    
 }
 
 #p-og{
@@ -107,8 +108,10 @@ h1{
 
 @keyframes mara {
 
-    0% { left: 0; }
-    15%{ left: 0; }
+    0% { left: 0;
+    background-color: red; }
+    15%{ left: 0;
+    background-color: greenssssss; }
     20%{ left: -100%; }
     35%{ left: -100%; }
     40%{ left: -200%; }
