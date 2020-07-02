@@ -13,11 +13,7 @@
 }
 .img-banner{
     width:100%;
-<<<<<<< HEAD
     height:96vh;
-=======
-    height:55vh;
->>>>>>> 75f8b4fa611c8523590a5b81e5f348bff04ae12b
     background-image: url('/shop_images/edvin-johansson-rlwE8f8anOc-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
