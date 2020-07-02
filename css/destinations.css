@@ -1,4 +1,3 @@
-
 .bann{
    background-size: cover;
    width: 100%;
@@ -19,16 +18,16 @@
     
 }
 
-#p-og{
+#p-og,.h2{
     background: none;
-    color: white;
+    color: black;
     opacity: 1;
     padding: 0px;
     margin:0px;
     text-align: center;
 }
 
-p{
+#destinations>p{
     text-align: justify;
     margin: 5px 0px 5px 0px;
 }
@@ -48,7 +47,7 @@ img{
 h1{
     text-align: center;
     background: lightgrey;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
     padding: 5px;
 }
 
