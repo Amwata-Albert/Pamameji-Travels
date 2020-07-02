@@ -1,12 +1,12 @@
 .bann{
    background-size: cover;
    width: 100%;
-   height: 350px;
+   height: auto;
    margin-top: 10px;
-   background-repeat: no-repeat;
-   background-position: center;
+   background-size: 100% 100%;
 }
 
+/*
 #h1-og{
     background: none;
     color: white;
@@ -17,7 +17,7 @@
     
     
 }
-
+*/
 #p-og,.h2{
     background: none;
     color: black;
@@ -26,6 +26,7 @@
     margin:0px;
     text-align: center;
 }
+
 
 #destinations>p{
     text-align: justify;
