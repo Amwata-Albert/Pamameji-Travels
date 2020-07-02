@@ -6,6 +6,7 @@
    background-size: 100% 100%;
 }
 
+/*
 #h1-og{
     background: none;
     color: white;
@@ -16,7 +17,7 @@
     
     
 }
-
+*/
 #p-og,.h2{
     background: none;
     color: black;
@@ -25,6 +26,7 @@
     margin:0px;
     text-align: center;
 }
+
 
 #destinations>p{
     text-align: justify;

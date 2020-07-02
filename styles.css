@@ -59,11 +59,6 @@ header{
 									;
 }
 
-#heads{
-    background-size: 100% 100%;
-}
-
-
 .top-left i, .top-right i{
 	color: yellow;
 	padding: 5px;
