@@ -60,11 +60,6 @@ header{
 									;
 }
 
-#heads{
-    background-size: 100% 100%;
-}
-
-
 .top-left i, .top-right i{
 	color: yellow;
 	padding: 5px;
@@ -174,7 +169,7 @@ color: black;
 }
 
 section.thissection{
-	margin-top: %;
+/*	margin-top: %;*/
 	min-height: 70%;
 }
 .section2{
@@ -211,7 +206,7 @@ footer{
 	margin-left: -80%;}
 .footer2 p.ff1{
 	margin-top: 5%;
-	margin-left: ;
+	/* margin-left: ; */
 	font-style: italic;
 	margin-right: 2%;
 	line-height: 20px;
@@ -233,7 +228,7 @@ footer{
 
 
 .footer4{
-	margin-right:;
+	/* margin-right:; */
 	width: 20%;
 	float: left;
 	margin-top: 20px;
@@ -331,7 +326,7 @@ footer{
 		text-align:center;
 		line-height: 40px;
 		max-height: 15%;
-		margin-left:;
+		/* margin-left:; */
 		margin-top: 1%;
 		transition: all 1s;
 
@@ -376,7 +371,7 @@ footer{
 	}
 
 	.footer2 img{
-		margin-top: ;
+		/* margin-top: ; */
 		margin-left: -60%;
 	}
 
@@ -620,9 +615,9 @@ body{
  }
  .section2 img{
 	 width: 553px;
-	 height: 500px;
+	 height: 553px;
 	 padding: 30px;
-	 margin-left:-10%;
+	 margin-left:-11%;
 	 border-radius: 50%;
  }
  .kenya{
