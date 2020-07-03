@@ -33,11 +33,13 @@
     background-color: rgba(0, 0, 0, 0.603);
 }
 .banner-content{
+    background-image: url('images/shop.jpg');
     display:flex;
     justify-content: center;
     margin-top:10rem;
 }
 .banner-text{
+    background-image: url('images/shop.jpg');
     font-size:3.9rem;
     font-weight: 300;
     padding:2rem;
